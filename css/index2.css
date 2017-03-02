@@ -1,0 +1,76 @@
+body{background: #8613ec;}
+#xj{
+  perspective: 800px;
+}
+#kj{
+  transform-style: preserve-3d;
+  width: 250px;
+  height:470px;
+  transform:rotateY(30deg);
+  margin: 50px auto;
+
+}
+#kj div{
+  line-height: 50px;
+  width: 250px;
+  height: 50px;
+  text-align: center;
+  transform-origin: top;
+  transform-style: preserve-3d;
+  margin-top: -1px;
+}
+.mz1{
+  background: url(../img/t6.jpg) no-repeat;
+  background-position: 0px -0px ;
+
+
+}
+.mz2{
+  background: url(../img/t6.jpg) no-repeat;
+  background-position:0px -50px ;
+
+}
+.mz3{
+  background: url(../img/t6.jpg) no-repeat;
+  background-position:0px -100px;
+}
+.mz4{
+  background: url(../img/t6.jpg) no-repeat;
+  background-position:0px -150px ;
+}
+.mz5{
+  background: url(../img/t6.jpg) no-repeat;
+  background-position:0px -200px;
+}
+.mz6{
+  background: url(../img/t6.jpg) no-repeat;
+  background-position:0px -250px
+}
+.mz7{
+  background: url(../img/t6.jpg) no-repeat;
+  background-position:0px -300px;
+}
+.mz8{
+  background: url(../img/t6.jpg) no-repeat;
+  background-position:0px -350px;
+
+}
+.mz9{
+  background: url(../img/t6.jpg) no-repeat;
+  background-position:0px -400px;
+}
+.mz10{
+  background: url(../img/t6.jpg) no-repeat;
+  background-position:0px -450px;
+}
+
+
+.btn{
+  width: 50px;
+  margin: 0 auto;
+}
+
+#btn{
+  width: 50px;
+  background: #a11511;
+}

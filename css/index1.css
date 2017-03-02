@@ -1,0 +1,40 @@
+body{background: #40b822;}
+#xj{
+  perspective: 800px;
+}
+#kj{
+  transform-style: preserve-3d;
+  width: 300px;
+  height:300px;
+  margin: 50px auto;
+  border: 1px #ddd solid;
+  position: relative;
+
+}
+.mian{
+    transition: 1s;
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  font-size: 100px;
+  line-height: 300px;
+  color: #fff;
+  background: red;
+  text-align: center;
+  transform-origin: bottom;
+  transform: rotateX(80deg);
+  backface-visibility: hidden;
+}
+
+.mian:nth-child(6){
+  
+    transform: rotateX(10deg);
+}
+#shang{
+  margin-left: 47%;
+  float: left;;
+}
+#xia{
+  margin-right:47%;
+  float: right;
+}
